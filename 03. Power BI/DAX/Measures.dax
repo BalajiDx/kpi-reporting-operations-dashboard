@@ -1,0 +1,46 @@
+// =====================================================================
+// KPI Reporting & Operations Dashboard - DAX
+// Tables : Jobs, Staffing, Escalations, Teams, Calendar
+// NOTE   : Same KPI logic as the Excel workbook (02. Excel KPI Report). Not executed in this repo's build
+//          environment - check results against the Excel 'Monthly KPIs' sheet after loading the data.
+// =====================================================================
+
+Calendar =
+ADDCOLUMNS ( CALENDAR ( DATE ( 2023, 7, 1 ), DATE ( 2024, 12, 31 ) ),
+    "Month", FORMAT ( [Date], "yyyy-mm" ), "Month Sort", YEAR ( [Date] ) * 100 + MONTH ( [Date] ) )
+
+Teams = DISTINCT ( Staffing[Team] )
+
+// Calculated columns on Jobs
+Turnaround Days = IF ( NOT ISBLANK ( Jobs[DeliveredDate] ), Jobs[DeliveredDate] - Jobs[ReceivedDate] )
+On Time = IF ( NOT ISBLANK ( Jobs[DeliveredDate] ), IF ( Jobs[DeliveredDate] <= Jobs[DueDate], 1, 0 ) )
+
+// Measures (Calendar filters Jobs on DeliveredDate)
+Jobs Delivered = CALCULATE ( COUNTROWS ( Jobs ), Jobs[Status] = "Delivered" )
+Jobs Received = CALCULATE ( COUNTROWS ( Jobs ), USERELATIONSHIP ( Calendar[Date], Jobs[ReceivedDate] ) )
+On-time % = DIVIDE ( CALCULATE ( SUM ( Jobs[On Time] ), Jobs[Status] = "Delivered" ), [Jobs Delivered] )
+First-pass Quality % = 1 - DIVIDE ( CALCULATE ( [Jobs Delivered], Jobs[Rework] = 1 ), [Jobs Delivered] )
+Avg Turnaround Days = CALCULATE ( AVERAGE ( Jobs[Turnaround Days] ), Jobs[Status] = "Delivered" )
+Pages Delivered = CALCULATE ( SUM ( Jobs[Pages] ), Jobs[Status] = "Delivered" )
+Errors per 1000 Pages = DIVIDE ( CALCULATE ( SUM ( Jobs[QAErrors] ), Jobs[Status] = "Delivered" ), [Pages Delivered] ) * 1000
+
+// Staffing is monthly: match on the month text of the Calendar
+FTE = CALCULATE ( SUM ( Staffing[FTE] ), TREATAS ( VALUES ( Calendar[Month] ), Staffing[Month] ) )
+Planned FTE = CALCULATE ( SUM ( Staffing[PlannedFTE] ), TREATAS ( VALUES ( Calendar[Month] ), Staffing[Month] ) )
+Staffing vs Plan % = DIVIDE ( [FTE], [Planned FTE] )
+Pages per FTE = DIVIDE ( [Pages Delivered], [FTE] )
+Escalations = COUNTROWS ( Escalations )
+
+On-time % PM = CALCULATE ( [On-time %], DATEADD ( Calendar[Date], -1, MONTH ) )
+On-time Change (pts) = ( [On-time %] - [On-time % PM] ) * 100
+
+On-time Target = 0.90
+On-time Status =
+SWITCH ( TRUE (), ISBLANK ( [On-time %] ), BLANK (),
+    [On-time %] >= [On-time Target], "On target",
+    [On-time %] >= [On-time Target] - 0.05, "Watch", "Off target" )
+
+Open Backlog =
+VAR EndDate = MAX ( Calendar[Date] )
+RETURN CALCULATE ( COUNTROWS ( Jobs ), REMOVEFILTERS ( Calendar ), Jobs[ReceivedDate] <= EndDate,
+    ( Jobs[DeliveredDate] > EndDate || Jobs[Status] = "In progress" ) )

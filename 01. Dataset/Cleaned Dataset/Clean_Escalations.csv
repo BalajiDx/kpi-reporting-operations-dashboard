@@ -1,0 +1,207 @@
+EscalationID,Date,Client,Team,JobID,Reason
+ESC0001,2023-07-08,Westgate Law Reports,Data Conversion,JB000013,Quality issue
+ESC0002,2023-07-12,Redstone Scientific,Data Conversion,JB000109,Late delivery
+ESC0003,2023-07-13,Northbridge Press,Data Conversion,JB000121,Late delivery
+ESC0004,2023-07-19,Larkfield Academic,Data Conversion,JB000103,Late delivery
+ESC0005,2023-07-20,Silverpine Education,Academic Editing,JB000452,Late delivery
+ESC0006,2023-07-22,Northbridge Press,Academic Editing,JB000395,Late delivery
+ESC0007,2023-07-30,Kestrel Medical,Academic Editing,JB000326,Late delivery
+ESC0008,2023-07-31,Harbourview Media,Academic Editing,JB000394,Late delivery
+ESC0009,2023-08-03,Westgate Law Reports,Data Conversion,JB000152,Late delivery
+ESC0010,2023-08-05,Bluewater Journals,Academic Editing,JB000422,Late delivery
+ESC0011,2023-08-08,Westgate Law Reports,Academic Editing,JB001110,Late delivery
+ESC0012,2023-08-16,Bluewater Journals,Data Conversion,JB001016,Late delivery
+ESC0013,2023-08-17,Kestrel Medical,Academic Editing,JB001296,Late delivery
+ESC0014,2023-09-01,Oakline Publishing,Data Conversion,JB001015,Late delivery
+ESC0015,2023-09-07,Bluewater Journals,Academic Editing,JB002117,Late delivery
+ESC0016,2023-09-08,Oakline Publishing,Academic Editing,JB002302,Late delivery
+ESC0017,2023-09-10,Northbridge Press,Typesetting,JB002684,Late delivery
+ESC0018,2023-09-10,Northbridge Press,Academic Editing,JB002281,Late delivery
+ESC0019,2023-09-11,Bluewater Journals,Academic Editing,JB002200,Late delivery
+ESC0020,2023-09-11,Northbridge Press,Typesetting,JB002625,Late delivery
+ESC0021,2023-09-14,Larkfield Academic,Typesetting,JB002561,Late delivery
+ESC0022,2023-09-16,Oakline Publishing,Academic Editing,JB002258,Late delivery
+ESC0023,2023-09-16,Bluewater Journals,Academic Editing,JB002175,Late delivery
+ESC0024,2023-09-21,Northbridge Press,Academic Editing,JB001979,Late delivery
+ESC0025,2023-09-22,Silverpine Education,Academic Editing,JB002335,Late delivery
+ESC0026,2023-09-23,Bluewater Journals,Academic Editing,JB002270,Late delivery
+ESC0027,2023-09-24,Northbridge Press,Data Conversion,JB001724,Late delivery
+ESC0028,2023-09-25,Silverpine Education,Typesetting,JB002564,Late delivery
+ESC0029,2023-09-26,Kestrel Medical,Data Conversion,JB001836,Late delivery
+ESC0030,2023-09-26,Kestrel Medical,Typesetting,JB002674,Late delivery
+ESC0031,2023-10-02,Silverpine Education,Typesetting,JB002406,Late delivery
+ESC0032,2023-10-02,Larkfield Academic,Typesetting,JB002627,Late delivery
+ESC0033,2023-10-03,Oakline Publishing,Academic Editing,JB002364,Late delivery
+ESC0034,2023-10-04,Harbourview Media,Data Conversion,JB001892,Late delivery
+ESC0035,2023-10-07,Bluewater Journals,Academic Editing,JB002090,Late delivery
+ESC0036,2023-10-12,Westgate Law Reports,Academic Editing,JB003273,Late delivery
+ESC0037,2023-10-13,Oakline Publishing,Academic Editing,JB003492,Late delivery
+ESC0038,2023-10-13,Northbridge Press,Typesetting,JB003676,Late delivery
+ESC0039,2023-10-17,Meridian Books,Academic Editing,JB003137,Late delivery
+ESC0040,2023-10-19,Silverpine Education,Academic Editing,JB003094,Late delivery
+ESC0041,2023-10-19,Bluewater Journals,Typesetting,JB003626,Late delivery
+ESC0042,2023-10-20,Larkfield Academic,Academic Editing,JB003167,Late delivery
+ESC0043,2023-10-20,Silverpine Education,Academic Editing,JB003169,Late delivery
+ESC0044,2023-10-27,Oakline Publishing,Academic Editing,JB003297,Late delivery
+ESC0045,2023-10-27,Bluewater Journals,Academic Editing,JB003444,Late delivery
+ESC0046,2023-10-29,Silverpine Education,Academic Editing,JB003433,Late delivery
+ESC0047,2023-10-31,Larkfield Academic,Data Conversion,JB002771,Quality issue
+ESC0048,2023-11-01,Bluewater Journals,Academic Editing,JB003152,Late delivery
+ESC0049,2023-11-01,Northbridge Press,Typesetting,JB003841,Late delivery
+ESC0050,2023-11-03,Northbridge Press,Data Conversion,JB002966,Late delivery
+ESC0051,2023-11-03,Meridian Books,Typesetting,JB003653,Late delivery
+ESC0052,2023-11-03,Silverpine Education,Academic Editing,JB003425,Late delivery
+ESC0053,2023-11-03,Redstone Scientific,Typesetting,JB003785,Late delivery
+ESC0054,2023-11-04,Larkfield Academic,Typesetting,JB003754,Late delivery
+ESC0055,2023-11-08,Redstone Scientific,Typesetting,JB004950,Late delivery
+ESC0056,2023-11-08,Bluewater Journals,Academic Editing,JB004460,Late delivery
+ESC0057,2023-11-09,Kestrel Medical,Data Conversion,JB004026,Late delivery
+ESC0058,2023-11-09,Silverpine Education,Typesetting,JB004707,Late delivery
+ESC0059,2023-11-12,Harbourview Media,Academic Editing,JB004155,Late delivery
+ESC0060,2023-11-13,Bluewater Journals,Data Conversion,JB002832,Late delivery
+ESC0061,2023-11-13,Larkfield Academic,Data Conversion,JB004123,Late delivery
+ESC0062,2023-11-14,Meridian Books,Data Conversion,JB004120,Late delivery
+ESC0063,2023-11-16,Silverpine Education,Data Conversion,JB003936,Late delivery
+ESC0064,2023-11-17,Meridian Books,Data Conversion,JB003908,Late delivery
+ESC0065,2023-11-17,Bluewater Journals,Academic Editing,JB004534,Late delivery
+ESC0066,2023-11-21,Meridian Books,Academic Editing,JB004515,Late delivery
+ESC0067,2023-11-22,Meridian Books,Data Conversion,JB004088,Late delivery
+ESC0068,2023-11-24,Harbourview Media,Typesetting,JB004857,Late delivery
+ESC0069,2023-11-24,Harbourview Media,Typesetting,JB004685,Late delivery
+ESC0070,2023-11-25,Harbourview Media,Typesetting,JB004928,Late delivery
+ESC0071,2023-11-26,Bluewater Journals,Data Conversion,JB003867,Quality issue
+ESC0072,2023-11-28,Bluewater Journals,Data Conversion,JB004050,Late delivery
+ESC0073,2023-11-29,Northbridge Press,Academic Editing,JB004591,Late delivery
+ESC0074,2023-11-29,Kestrel Medical,Academic Editing,JB004550,Late delivery
+ESC0075,2023-12-01,Northbridge Press,Typesetting,JB004949,Quality issue
+ESC0076,2023-12-02,Redstone Scientific,Typesetting,JB004777,Late delivery
+ESC0077,2023-12-04,Meridian Books,Academic Editing,JB004319,Late delivery
+ESC0078,2023-12-05,Westgate Law Reports,Typesetting,JB004897,Late delivery
+ESC0079,2023-12-08,Oakline Publishing,Academic Editing,JB004229,Late delivery
+ESC0080,2023-12-10,Kestrel Medical,Academic Editing,JB005353,Quality issue
+ESC0081,2023-12-10,Northbridge Press,Data Conversion,JB005168,Quality issue
+ESC0082,2024-01-12,Larkfield Academic,Academic Editing,JB006104,Late delivery
+ESC0083,2024-01-12,Oakline Publishing,Academic Editing,JB006364,Quality issue
+ESC0084,2024-01-14,Northbridge Press,Typesetting,JB006479,Late delivery
+ESC0085,2024-01-17,Silverpine Education,Academic Editing,JB006110,Late delivery
+ESC0086,2024-01-20,Kestrel Medical,Academic Editing,JB006303,Late delivery
+ESC0087,2024-01-26,Larkfield Academic,Academic Editing,JB006154,Late delivery
+ESC0088,2024-02-02,Bluewater Journals,Data Conversion,JB005866,Late delivery
+ESC0089,2024-02-04,Larkfield Academic,Academic Editing,JB006304,Late delivery
+ESC0090,2024-02-08,Larkfield Academic,Data Conversion,JB005989,Late delivery
+ESC0091,2024-02-12,Redstone Scientific,Data Conversion,JB006926,Late delivery
+ESC0092,2024-02-21,Silverpine Education,Data Conversion,JB006774,Late delivery
+ESC0093,2024-02-21,Bluewater Journals,Typesetting,JB007464,Late delivery
+ESC0094,2024-02-24,Larkfield Academic,Data Conversion,JB006763,Late delivery
+ESC0095,2024-02-25,Northbridge Press,Data Conversion,JB006767,Quality issue
+ESC0096,2024-02-26,Bluewater Journals,Typesetting,JB007503,Late delivery
+ESC0097,2024-02-28,Kestrel Medical,Academic Editing,JB007091,Late delivery
+ESC0098,2024-03-02,Northbridge Press,Typesetting,JB007406,Late delivery
+ESC0099,2024-03-03,Meridian Books,Academic Editing,JB007050,Late delivery
+ESC0100,2024-03-05,Meridian Books,Academic Editing,JB007004,Late delivery
+ESC0101,2024-03-08,Larkfield Academic,Typesetting,JB008389,Late delivery
+ESC0102,2024-03-10,Larkfield Academic,Academic Editing,JB007933,Late delivery
+ESC0103,2024-03-13,Oakline Publishing,Typesetting,JB008382,Late delivery
+ESC0104,2024-03-14,Harbourview Media,Data Conversion,JB007731,Late delivery
+ESC0105,2024-03-20,Larkfield Academic,Typesetting,JB008567,Quality issue
+ESC0106,2024-03-25,Silverpine Education,Academic Editing,JB008186,Late delivery
+ESC0107,2024-04-02,Larkfield Academic,Data Conversion,JB007637,Late delivery
+ESC0108,2024-04-03,Bluewater Journals,Academic Editing,JB009205,Quality issue
+ESC0109,2024-04-14,Meridian Books,Typesetting,JB009373,Late delivery
+ESC0110,2024-04-19,Oakline Publishing,Typesetting,JB009292,Late delivery
+ESC0111,2024-04-22,Bluewater Journals,Academic Editing,JB008899,Late delivery
+ESC0112,2024-05-01,Oakline Publishing,Data Conversion,JB008779,Late delivery
+ESC0113,2024-05-27,Silverpine Education,Academic Editing,JB009862,Late delivery
+ESC0114,2024-06-06,Bluewater Journals,Academic Editing,JB010900,Late delivery
+ESC0115,2024-06-09,Westgate Law Reports,Academic Editing,JB010782,Late delivery
+ESC0116,2024-06-28,Bluewater Journals,Data Conversion,JB010433,Quality issue
+ESC0117,2024-07-07,Larkfield Academic,Academic Editing,JB010956,Late delivery
+ESC0118,2024-07-09,Oakline Publishing,Data Conversion,JB011520,Quality issue
+ESC0119,2024-07-09,Silverpine Education,Academic Editing,JB011626,Late delivery
+ESC0120,2024-07-14,Harbourview Media,Typesetting,JB012064,Late delivery
+ESC0121,2024-07-23,Larkfield Academic,Academic Editing,JB011642,Late delivery
+ESC0122,2024-07-27,Meridian Books,Data Conversion,JB011537,Quality issue
+ESC0123,2024-07-28,Westgate Law Reports,Academic Editing,JB011909,Late delivery
+ESC0124,2024-08-06,Oakline Publishing,Typesetting,JB013141,Late delivery
+ESC0125,2024-08-07,Oakline Publishing,Academic Editing,JB012590,Late delivery
+ESC0126,2024-08-15,Oakline Publishing,Data Conversion,JB012387,Late delivery
+ESC0127,2024-08-20,Bluewater Journals,Data Conversion,JB012385,Quality issue
+ESC0128,2024-08-23,Meridian Books,Data Conversion,JB012302,Late delivery
+ESC0129,2024-09-01,Larkfield Academic,Academic Editing,JB012566,Late delivery
+ESC0130,2024-09-05,Bluewater Journals,Typesetting,JB014304,Late delivery
+ESC0131,2024-09-06,Larkfield Academic,Typesetting,JB014259,Late delivery
+ESC0132,2024-09-09,Kestrel Medical,Academic Editing,JB013807,Late delivery
+ESC0133,2024-09-14,Meridian Books,Academic Editing,JB013986,Late delivery
+ESC0134,2024-09-19,Northbridge Press,Data Conversion,JB013475,Late delivery
+ESC0135,2024-09-20,Bluewater Journals,Typesetting,JB014097,Late delivery
+ESC0136,2024-09-23,Oakline Publishing,Academic Editing,JB013798,Late delivery
+ESC0137,2024-09-23,Silverpine Education,Data Conversion,JB013532,Quality issue
+ESC0138,2024-09-23,Kestrel Medical,Academic Editing,JB013696,Late delivery
+ESC0139,2024-09-25,Meridian Books,Typesetting,JB014350,Quality issue
+ESC0140,2024-09-25,Harbourview Media,Data Conversion,JB013441,Late delivery
+ESC0141,2024-09-27,Larkfield Academic,Typesetting,JB014297,Late delivery
+ESC0142,2024-09-28,Oakline Publishing,Academic Editing,JB013792,Late delivery
+ESC0143,2024-10-02,Redstone Scientific,Typesetting,JB014200,Late delivery
+ESC0144,2024-10-04,Meridian Books,Typesetting,JB014120,Late delivery
+ESC0145,2024-10-04,Northbridge Press,Typesetting,JB014183,Late delivery
+ESC0146,2024-10-04,Northbridge Press,Typesetting,JB014317,Late delivery
+ESC0147,2024-10-05,Kestrel Medical,Academic Editing,JB013944,Late delivery
+ESC0148,2024-10-06,Northbridge Press,Data Conversion,JB013351,Quality issue
+ESC0149,2024-10-06,Bluewater Journals,Academic Editing,JB013691,Late delivery
+ESC0150,2024-10-06,Northbridge Press,Typesetting,JB014070,Late delivery
+ESC0151,2024-10-07,Bluewater Journals,Data Conversion,JB013457,Late delivery
+ESC0152,2024-10-07,Westgate Law Reports,Typesetting,JB015454,Late delivery
+ESC0153,2024-10-07,Bluewater Journals,Typesetting,JB015263,Late delivery
+ESC0154,2024-10-08,Larkfield Academic,Typesetting,JB015525,Late delivery
+ESC0155,2024-10-09,Bluewater Journals,Data Conversion,JB014700,Quality issue
+ESC0156,2024-10-12,Bluewater Journals,Data Conversion,JB014441,Quality issue
+ESC0157,2024-10-13,Larkfield Academic,Academic Editing,JB015087,Late delivery
+ESC0158,2024-10-13,Northbridge Press,Typesetting,JB015531,Quality issue
+ESC0159,2024-10-15,Redstone Scientific,Academic Editing,JB014825,Late delivery
+ESC0160,2024-10-15,Northbridge Press,Typesetting,JB015264,Late delivery
+ESC0161,2024-10-17,Harbourview Media,Academic Editing,JB015229,Late delivery
+ESC0162,2024-10-20,Northbridge Press,Academic Editing,JB014983,Late delivery
+ESC0163,2024-10-21,Northbridge Press,Typesetting,JB015553,Late delivery
+ESC0164,2024-10-22,Meridian Books,Data Conversion,JB014732,Quality issue
+ESC0165,2024-10-22,Meridian Books,Data Conversion,JB014556,Late delivery
+ESC0166,2024-10-22,Oakline Publishing,Typesetting,JB015535,Late delivery
+ESC0167,2024-10-24,Westgate Law Reports,Typesetting,JB015468,Late delivery
+ESC0168,2024-10-27,Northbridge Press,Typesetting,JB015603,Late delivery
+ESC0169,2024-10-27,Northbridge Press,Typesetting,JB015588,Late delivery
+ESC0170,2024-10-28,Meridian Books,Academic Editing,JB015009,Late delivery
+ESC0171,2024-10-29,Northbridge Press,Academic Editing,JB015078,Late delivery
+ESC0172,2024-10-29,Larkfield Academic,Typesetting,JB015464,Late delivery
+ESC0173,2024-11-01,Oakline Publishing,Academic Editing,JB014861,Late delivery
+ESC0174,2024-11-01,Silverpine Education,Data Conversion,JB014593,Late delivery
+ESC0175,2024-11-02,Westgate Law Reports,Academic Editing,JB015169,Late delivery
+ESC0176,2024-11-04,Westgate Law Reports,Data Conversion,JB014760,Quality issue
+ESC0177,2024-11-04,Silverpine Education,Academic Editing,JB015138,Late delivery
+ESC0178,2024-11-06,Bluewater Journals,Academic Editing,JB016378,Late delivery
+ESC0179,2024-11-07,Meridian Books,Typesetting,JB016609,Late delivery
+ESC0180,2024-11-07,Oakline Publishing,Data Conversion,JB014576,Late delivery
+ESC0181,2024-11-09,Meridian Books,Data Conversion,JB014730,Late delivery
+ESC0182,2024-11-09,Larkfield Academic,Academic Editing,JB014779,Late delivery
+ESC0183,2024-11-10,Meridian Books,Academic Editing,JB016081,Late delivery
+ESC0184,2024-11-11,Silverpine Education,Academic Editing,JB016163,Late delivery
+ESC0185,2024-11-12,Meridian Books,Academic Editing,JB016467,Late delivery
+ESC0186,2024-11-12,Oakline Publishing,Academic Editing,JB016093,Late delivery
+ESC0187,2024-11-13,Harbourview Media,Academic Editing,JB016069,Late delivery
+ESC0188,2024-11-13,Meridian Books,Academic Editing,JB016289,Late delivery
+ESC0189,2024-11-15,Northbridge Press,Data Conversion,JB015885,Late delivery
+ESC0190,2024-11-16,Bluewater Journals,Data Conversion,JB015651,Quality issue
+ESC0191,2024-11-18,Kestrel Medical,Data Conversion,JB015873,Quality issue
+ESC0192,2024-11-21,Redstone Scientific,Data Conversion,JB015840,Late delivery
+ESC0193,2024-11-22,Larkfield Academic,Typesetting,JB016664,Late delivery
+ESC0194,2024-11-24,Meridian Books,Academic Editing,JB016107,Late delivery
+ESC0195,2024-11-24,Bluewater Journals,Typesetting,JB016527,Late delivery
+ESC0196,2024-11-26,Larkfield Academic,Academic Editing,JB016460,Late delivery
+ESC0197,2024-11-27,Harbourview Media,Typesetting,JB016501,Late delivery
+ESC0198,2024-11-30,Kestrel Medical,Data Conversion,JB015866,Quality issue
+ESC0199,2024-11-30,Harbourview Media,Data Conversion,JB015842,Late delivery
+ESC0200,2024-11-30,Larkfield Academic,Typesetting,JB016656,Late delivery
+ESC0201,2024-12-02,Northbridge Press,Data Conversion,JB015871,Late delivery
+ESC0202,2024-12-05,Bluewater Journals,Data Conversion,JB015686,Late delivery
+ESC0203,2024-12-06,Oakline Publishing,Academic Editing,JB016395,Late delivery
+ESC0204,2024-12-08,Northbridge Press,Academic Editing,JB017152,Late delivery
+ESC0205,2024-12-19,Westgate Law Reports,Typesetting,JB017748,Late delivery
+ESC0206,2024-12-19,Silverpine Education,Academic Editing,JB017175,Late delivery
